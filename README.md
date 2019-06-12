@@ -36,7 +36,15 @@ A Resource on how to create, load, and use an AWS EC2 Instance to train a model.
 ![Select Operating System](images/image7.png)
 
 - Now navigate to the instance you want to use and click the box to the left. Now click review and launch.
+
 ![Select Instance](images/image8.png)
 
 - Click launch. 
+
 ![Launch Instance](images/image9.png)
+
+- Once you click launch a dialogue box will pop up asking for a key pair. Name it whatever you like, and click "Download Key Pair". Afterwards click "Launch Instance", and then click "View Instance" in the next page. 
+
+![Key Pair File Creation](images/image10.png)
+
+- 
