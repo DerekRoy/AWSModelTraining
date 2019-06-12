@@ -81,3 +81,21 @@ A Resource on how to create, load, and use an AWS EC2 Instance to train a model.
 ![Connection instructions](images/image12.png)
 
 
+- Once you have entered these commands in the terminal (From the directory containing your pem file) activate one of the environments you want to use. 
+
+![Terminal commands for Amazon EC2](images/image13.png)
+
+You are now in your EC2 instance! 
+
+- To load files into your EC2 instance use SCP as below, with -r being used to upload a folder and removed when there is only a single file to upload: 
+
+
+`scp -i "my_key_name.pem" -r "file/folder"  user@amazonUrl:~/directory_name/`
+
+
+Now your files will upload, and you can find your data in the home directory of the EC2 instance. From here on out you can run code in the ec2 instance after navigating to the proper directory. 
+
+- To download your files, type the below code: 
+
+
+`scp -i "my_key_name.pem" -r user@amazonUrl:~/directory_name/ ~/Download/`
