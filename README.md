@@ -99,3 +99,6 @@ Now your files will upload, and you can find your data in the home directory of 
 
 
 `scp -i "my_key_name.pem" -r user@amazonUrl:~/directory_name/ ~/Download/`
+
+
+To find out about running a training session that won't be interupted by messing with your ssh connection check out this thread: https://stackoverflow.com/questions/25122172/how-to-run-script-on-amazon-ec2-without-keeping-an-ssh-pipe-open
